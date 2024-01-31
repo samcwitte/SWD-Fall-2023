@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="510.0" prefWidth="1250.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller">
+   <children>
+      <Circle fill="#1684eb00" layoutX="134.0" layoutY="134.0" radius="120.0" stroke="BLACK" strokeType="INSIDE" />
+      <Rectangle fx:id="minuteHand0" arcHeight="5.0" arcWidth="5.0" fill="BLUE" height="100.0" layoutX="131.0" layoutY="34.0" rotate="0.0" stroke="BLUE" strokeType="INSIDE" width="6.0" />
+      <Rectangle fx:id="hourHand0" arcHeight="5.0" arcWidth="5.0" height="60.0" layoutX="131.0" layoutY="74.0" stroke="BLACK" strokeType="INSIDE" width="6.0" />
+      <Rectangle fx:id="secondHand0" arcHeight="5.0" arcWidth="5.0" fill="RED" height="90.0" layoutX="131.0" layoutY="44.0" stroke="RED" strokeType="INSIDE" width="6.0" />
+      <Text layoutX="126.0" layoutY="30.0" strokeType="OUTSIDE" strokeWidth="0.0" text="12" textAlignment="CENTER" />
+      <Text layoutX="241.0" layoutY="139.0" strokeType="OUTSIDE" strokeWidth="0.0" text="3" textAlignment="CENTER" />
+      <Text layoutX="19.0" layoutY="139.0" strokeType="OUTSIDE" strokeWidth="0.0" text="9" textAlignment="CENTER" />
+      <Text layoutX="130.0" layoutY="250.0" strokeType="OUTSIDE" strokeWidth="0.0" text="6" textAlignment="CENTER" />
+      <Circle fill="#1684eb00" layoutX="379.0" layoutY="134.0" radius="120.0" stroke="BLACK" strokeType="INSIDE" />
+      <Rectangle fx:id="minuteHand1" arcHeight="5.0" arcWidth="5.0" fill="BLUE" height="100.0" layoutX="376.0" layoutY="34.0" stroke="BLUE" strokeType="INSIDE" width="6.0" />
+      <Rectangle fx:id="hourHand1" arcHeight="5.0" arcWidth="5.0" height="60.0" layoutX="376.0" layoutY="74.0" stroke="BLACK" strokeType="INSIDE" width="6.0" />
+      <Rectangle fx:id="secondHand1" arcHeight="5.0" arcWidth="5.0" fill="RED" height="90.0" layoutX="376.0" layoutY="44.0" stroke="RED" strokeType="INSIDE" width="6.0" />
+      <Text layoutX="371.0" layoutY="30.0" strokeType="OUTSIDE" strokeWidth="0.0" text="12" textAlignment="CENTER" />
+      <Text layoutX="486.0" layoutY="139.0" strokeType="OUTSIDE" strokeWidth="0.0" text="3" textAlignment="CENTER" />
+      <Text layoutX="264.0" layoutY="139.0" strokeType="OUTSIDE" strokeWidth="0.0" text="9" textAlignment="CENTER" />
+      <Text layoutX="375.0" layoutY="250.0" strokeType="OUTSIDE" strokeWidth="0.0" text="6" textAlignment="CENTER" />
+      <Circle fill="#1684eb00" layoutX="624.0" layoutY="134.0" radius="120.0" stroke="BLACK" strokeType="INSIDE" />
+      <Rectangle fx:id="minuteHand2" arcHeight="5.0" arcWidth="5.0" fill="BLUE" height="100.0" layoutX="621.0" layoutY="34.0" stroke="BLUE" strokeType="INSIDE" width="6.0" />
+      <Rectangle fx:id="hourHand2" arcHeight="5.0" arcWidth="5.0" height="60.0" layoutX="621.0" layoutY="74.0" stroke="BLACK" strokeType="INSIDE" width="6.0" />
+      <Rectangle fx:id="secondHand2" arcHeight="5.0" arcWidth="5.0" fill="RED" height="90.0" layoutX="621.0" layoutY="44.0" stroke="RED" strokeType="INSIDE" width="6.0" />
+      <Text layoutX="616.0" layoutY="30.0" strokeType="OUTSIDE" strokeWidth="0.0" text="12" textAlignment="CENTER" />
+      <Text layoutX="731.0" layoutY="139.0" strokeType="OUTSIDE" strokeWidth="0.0" text="3" textAlignment="CENTER" />
+      <Text layoutX="509.0" layoutY="139.0" strokeType="OUTSIDE" strokeWidth="0.0" text="9" textAlignment="CENTER" />
+      <Text layoutX="620.0" layoutY="250.0" strokeType="OUTSIDE" strokeWidth="0.0" text="6" textAlignment="CENTER" />
+      <Circle fill="#1684eb00" layoutX="869.0" layoutY="134.0" radius="120.0" stroke="BLACK" strokeType="INSIDE" />
+      <Rectangle fx:id="minuteHand3" arcHeight="5.0" arcWidth="5.0" fill="BLUE" height="100.0" layoutX="866.0" layoutY="34.0" stroke="BLUE" strokeType="INSIDE" width="6.0" />
+      <Rectangle fx:id="hourHand3" arcHeight="5.0" arcWidth="5.0" height="60.0" layoutX="866.0" layoutY="74.0" stroke="BLACK" strokeType="INSIDE" width="6.0" />
+      <Rectangle fx:id="secondHand3" arcHeight="5.0" arcWidth="5.0" fill="RED" height="90.0" layoutX="866.0" layoutY="44.0" stroke="RED" strokeType="INSIDE" width="6.0" />
+      <Text layoutX="861.0" layoutY="30.0" strokeType="OUTSIDE" strokeWidth="0.0" text="12" textAlignment="CENTER" />
+      <Text layoutX="976.0" layoutY="139.0" strokeType="OUTSIDE" strokeWidth="0.0" text="3" textAlignment="CENTER" />
+      <Text layoutX="754.0" layoutY="139.0" strokeType="OUTSIDE" strokeWidth="0.0" text="9" textAlignment="CENTER" />
+      <Text layoutX="865.0" layoutY="250.0" strokeType="OUTSIDE" strokeWidth="0.0" text="6" textAlignment="CENTER" />
+      <Circle fill="#1684eb00" layoutX="1114.0" layoutY="134.0" radius="120.0" stroke="BLACK" strokeType="INSIDE" />
+      <Rectangle fx:id="minuteHand4" arcHeight="5.0" arcWidth="5.0" fill="BLUE" height="100.0" layoutX="1111.0" layoutY="34.0" stroke="BLUE" strokeType="INSIDE" width="6.0" />
+      <Rectangle fx:id="hourHand4" arcHeight="5.0" arcWidth="5.0" height="60.0" layoutX="1111.0" layoutY="74.0" stroke="BLACK" strokeType="INSIDE" width="6.0" />
+      <Rectangle fx:id="secondHand4" arcHeight="5.0" arcWidth="5.0" fill="RED" height="90.0" layoutX="1111.0" layoutY="44.0" stroke="RED" strokeType="INSIDE" width="6.0" />
+      <Text layoutX="1106.0" layoutY="30.0" strokeType="OUTSIDE" strokeWidth="0.0" text="12" textAlignment="CENTER" />
+      <Text layoutX="1221.0" layoutY="139.0" strokeType="OUTSIDE" strokeWidth="0.0" text="3" textAlignment="CENTER" />
+      <Text layoutX="999.0" layoutY="139.0" strokeType="OUTSIDE" strokeWidth="0.0" text="9" textAlignment="CENTER" />
+      <Text layoutX="1110.0" layoutY="250.0" strokeType="OUTSIDE" strokeWidth="0.0" text="6" textAlignment="CENTER" />
+      <Circle fill="#1684eb00" layoutX="134.0" layoutY="379.0" radius="120.0" stroke="BLACK" strokeType="INSIDE" />
+      <Rectangle fx:id="minuteHand5" arcHeight="5.0" arcWidth="5.0" fill="BLUE" height="100.0" layoutX="131.0" layoutY="279.0" stroke="BLUE" strokeType="INSIDE" width="6.0" />
+      <Rectangle fx:id="hourHand5" arcHeight="5.0" arcWidth="5.0" height="60.0" layoutX="131.0" layoutY="319.0" stroke="BLACK" strokeType="INSIDE" width="6.0" />
+      <Rectangle fx:id="secondHand5" arcHeight="5.0" arcWidth="5.0" fill="RED" height="90.0" layoutX="131.0" layoutY="289.0" stroke="RED" strokeType="INSIDE" width="6.0" />
+      <Text layoutX="126.0" layoutY="275.0" strokeType="OUTSIDE" strokeWidth="0.0" text="12" textAlignment="CENTER" />
+      <Text layoutX="241.0" layoutY="384.0" strokeType="OUTSIDE" strokeWidth="0.0" text="3" textAlignment="CENTER" />
+      <Text layoutX="19.0" layoutY="384.0" strokeType="OUTSIDE" strokeWidth="0.0" text="9" textAlignment="CENTER" />
+      <Text layoutX="130.0" layoutY="495.0" strokeType="OUTSIDE" strokeWidth="0.0" text="6" textAlignment="CENTER" />
+      <Circle fill="#1684eb00" layoutX="379.0" layoutY="379.0" radius="120.0" stroke="BLACK" strokeType="INSIDE" />
+      <Rectangle fx:id="minuteHand6" arcHeight="5.0" arcWidth="5.0" fill="BLUE" height="100.0" layoutX="376.0" layoutY="279.0" stroke="BLUE" strokeType="INSIDE" width="6.0" />
+      <Rectangle fx:id="hourHand6" arcHeight="5.0" arcWidth="5.0" height="60.0" layoutX="376.0" layoutY="319.0" stroke="BLACK" strokeType="INSIDE" width="6.0" />
+      <Rectangle fx:id="secondHand6" arcHeight="5.0" arcWidth="5.0" fill="RED" height="90.0" layoutX="376.0" layoutY="289.0" stroke="RED" strokeType="INSIDE" width="6.0" />
+      <Text layoutX="371.0" layoutY="275.0" strokeType="OUTSIDE" strokeWidth="0.0" text="12" textAlignment="CENTER" />
+      <Text layoutX="486.0" layoutY="384.0" strokeType="OUTSIDE" strokeWidth="0.0" text="3" textAlignment="CENTER" />
+      <Text layoutX="264.0" layoutY="384.0" strokeType="OUTSIDE" strokeWidth="0.0" text="9" textAlignment="CENTER" />
+      <Text layoutX="375.0" layoutY="495.0" strokeType="OUTSIDE" strokeWidth="0.0" text="6" textAlignment="CENTER" />
+      <Circle fill="#1684eb00" layoutX="624.0" layoutY="379.0" radius="120.0" stroke="BLACK" strokeType="INSIDE" />
+      <Rectangle fx:id="minuteHand7" arcHeight="5.0" arcWidth="5.0" fill="BLUE" height="100.0" layoutX="621.0" layoutY="279.0" stroke="BLUE" strokeType="INSIDE" width="6.0" />
+      <Rectangle fx:id="hourHand7" arcHeight="5.0" arcWidth="5.0" height="60.0" layoutX="621.0" layoutY="319.0" stroke="BLACK" strokeType="INSIDE" width="6.0" />
+      <Rectangle fx:id="secondHand7" arcHeight="5.0" arcWidth="5.0" fill="RED" height="90.0" layoutX="621.0" layoutY="289.0" stroke="RED" strokeType="INSIDE" width="6.0" />
+      <Text layoutX="616.0" layoutY="275.0" strokeType="OUTSIDE" strokeWidth="0.0" text="12" textAlignment="CENTER" />
+      <Text layoutX="731.0" layoutY="384.0" strokeType="OUTSIDE" strokeWidth="0.0" text="3" textAlignment="CENTER" />
+      <Text layoutX="509.0" layoutY="384.0" strokeType="OUTSIDE" strokeWidth="0.0" text="9" textAlignment="CENTER" />
+      <Text layoutX="620.0" layoutY="495.0" strokeType="OUTSIDE" strokeWidth="0.0" text="6" textAlignment="CENTER" />
+      <Circle fill="#1684eb00" layoutX="869.0" layoutY="379.0" radius="120.0" stroke="BLACK" strokeType="INSIDE" />
+      <Rectangle fx:id="minuteHand8" arcHeight="5.0" arcWidth="5.0" fill="BLUE" height="100.0" layoutX="866.0" layoutY="279.0" stroke="BLUE" strokeType="INSIDE" width="6.0" />
+      <Rectangle fx:id="hourHand8" arcHeight="5.0" arcWidth="5.0" height="60.0" layoutX="866.0" layoutY="319.0" stroke="BLACK" strokeType="INSIDE" width="6.0" />
+      <Rectangle fx:id="secondHand8" arcHeight="5.0" arcWidth="5.0" fill="RED" height="90.0" layoutX="866.0" layoutY="289.0" stroke="RED" strokeType="INSIDE" width="6.0" />
+      <Text layoutX="861.0" layoutY="275.0" strokeType="OUTSIDE" strokeWidth="0.0" text="12" textAlignment="CENTER" />
+      <Text layoutX="976.0" layoutY="384.0" strokeType="OUTSIDE" strokeWidth="0.0" text="3" textAlignment="CENTER" />
+      <Text layoutX="754.0" layoutY="384.0" strokeType="OUTSIDE" strokeWidth="0.0" text="9" textAlignment="CENTER" />
+      <Text layoutX="865.0" layoutY="495.0" strokeType="OUTSIDE" strokeWidth="0.0" text="6" textAlignment="CENTER" />
+      <Circle fill="#1684eb00" layoutX="1114.0" layoutY="379.0" radius="120.0" stroke="BLACK" strokeType="INSIDE" />
+      <Rectangle fx:id="minuteHand9" arcHeight="5.0" arcWidth="5.0" fill="BLUE" height="100.0" layoutX="1111.0" layoutY="279.0" stroke="BLUE" strokeType="INSIDE" width="6.0" />
+      <Rectangle fx:id="hourHand9" arcHeight="5.0" arcWidth="5.0" height="60.0" layoutX="1111.0" layoutY="319.0" stroke="BLACK" strokeType="INSIDE" width="6.0" />
+      <Rectangle fx:id="secondHand9" arcHeight="5.0" arcWidth="5.0" fill="RED" height="90.0" layoutX="1111.0" layoutY="289.0" stroke="RED" strokeType="INSIDE" width="6.0" />
+      <Text layoutX="1106.0" layoutY="275.0" strokeType="OUTSIDE" strokeWidth="0.0" text="12" textAlignment="CENTER" />
+      <Text layoutX="1221.0" layoutY="384.0" strokeType="OUTSIDE" strokeWidth="0.0" text="3" textAlignment="CENTER" />
+      <Text layoutX="999.0" layoutY="384.0" strokeType="OUTSIDE" strokeWidth="0.0" text="9" textAlignment="CENTER" />
+      <Text layoutX="1110.0" layoutY="495.0" strokeType="OUTSIDE" strokeWidth="0.0" text="6" textAlignment="CENTER" />
+   </children>
+</AnchorPane>
