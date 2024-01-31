@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"datastructurs","l":"EmptyListException"},{"p":"datastructurs","l":"List"},{"p":"datastructurs","l":"ListNode"},{"p":"<Unnamed>","l":"ListTests"}];updateSearchResults();
